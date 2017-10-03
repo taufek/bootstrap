@@ -20,7 +20,7 @@ Alerts are available for any length of text, as well as an optional dismiss butt
 {% capture callout-include %}{% include callout-warning-color-assistive-technologies.md %}{% endcapture %}
 {{ callout-include | markdownify }}
 
-### Link color
+## Link color
 
 Use the `.alert-link` utility class to quickly provide matching colored links within any alert.
 
@@ -31,7 +31,7 @@ Use the `.alert-link` utility class to quickly provide matching colored links wi
 </div>{% endfor %}
 {% endexample %}
 
-### Additional content
+## Additional content
 
 Alerts can also contain additional HTML elements like headings, paragraphs and dividers.
 
@@ -45,7 +45,7 @@ Alerts can also contain additional HTML elements like headings, paragraphs and d
 {% endexample %}
 
 
-### Dismissing
+## Dismissing
 
 Using the alert JavaScript plugin, it's possible to dismiss any alert inline. Here's how:
 
